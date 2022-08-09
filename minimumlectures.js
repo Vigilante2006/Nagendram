@@ -1,0 +1,6 @@
+function minLectures(M){
+ if({
+    
+ })
+}
+
