@@ -163,8 +163,28 @@
 // let sum=0
 // let arr2 = arr2.forEach((num)=>{sum=sum+num;})
 
-const cars = ["maruti","123"];
-for(const x of cars){
-    let element =x;
-    console.log(element);
+// const cars = ["maruti","123"];
+// for(const x of cars){
+//     let element =x;
+//     console.log(element);
+// }
+
+
+
+let n= 123456;
+function getSum(n){
+    let sum = 0;
+    while(n>0||sum>9){//to check if the number is single digit or not.
+    if(n==0){
+        n=sum;//10
+        sum=0;
+    }
+    sum=sum+n%10;//0+4 //4+3 //7+2 //9+1 //1
+    n=Math.floor(n/10);//don't have anything to add //123 //12  //1 //0  
+    //n=parseInt(n/10);
 }
+return sum;
+}
+console.log(getSum(n));
+
+

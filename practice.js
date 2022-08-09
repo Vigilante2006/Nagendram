@@ -576,9 +576,9 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 // var array = [1,12,3,4,5,66,7,7,6,,2,,3,5,5,6,6]
 // console.log(array);
 
-var array = ["Ravi","Nagendram","Rithwik","Aradhya","Anok"];
+//var array = ["Ravi","Nagendram","Rithwik","Aradhya","Anok"];
 //var array3 = array[2];
-console.log(array);
+//console.log(array);
 // array.pop();
 // console.log(array);
 // array.splice(2,1);
@@ -587,5 +587,7 @@ console.log(array);
 // console.log(array);
 // array.unshift(10,"Ravi");
 // console.log(array);
-array.slice(1,3);
+var array=[1,2,3,45,56];
+
+array.slice(0,3);
 console.log(array);
