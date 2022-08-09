@@ -1,0 +1,8 @@
+Data structurs:arrays and objects.
+
+Questions:
+    1. How do you keep your cloths?
+        =>wardrobe,almirah,hanger,stack.
+    2.which one of these would be best place to keep cloths?
+        =>wardrobe.
+    
