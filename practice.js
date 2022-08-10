@@ -1,25 +1,4 @@
-/*let a=10;
-console.log(typeof a)
-let b="slice";
-console.log(typeof b)
-let c=true
-console.log(typeof c)*/
 
-
-
-
-/*var res = sayHello();
-var sayHello = function(){
-    console.log("hello");
-}*/
-
-
-/*var name="rick";
-function printName(){
-    var name="Morty";
-    console.log(name);
-}
-printName();*/
 
 /*for(i=0;i<10;i++){
     console.log(i);
@@ -562,32 +541,3 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 // }
 // canArrayBeSorted([1,2,3,4,5,6]);
 
-
-
-// function sum(n1,n2,n3,n4,n5,n6,n7,n8){
-//     console.log(n1+n2+n3+n4+n5+n6+n7+n8);
-
-// }
-// sum(1,2,3,4,5,6,7,8);
-
-//function sum(array){
-    
-//}
-// var array = [1,12,3,4,5,66,7,7,6,,2,,3,5,5,6,6]
-// console.log(array);
-
-//var array = ["Ravi","Nagendram","Rithwik","Aradhya","Anok"];
-//var array3 = array[2];
-//console.log(array);
-// array.pop();
-// console.log(array);
-// array.splice(2,1);
-// console.log(array);
-// array.shift();
-// console.log(array);
-// array.unshift(10,"Ravi");
-// console.log(array);
-var array=[1,2,3,45,56];
-
-array.slice(0,3);
-console.log(array);
