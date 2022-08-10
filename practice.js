@@ -248,80 +248,12 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 // largeNum(45,67,89);
 
 
-// function gradeingSystem(marks){
-//     if(marks>=90){
-//         console.log("A");
-//     }else if(marks>=80 && marks<89){
-//         console.log("B");
-//     }else if(marks>=70 && marks<79){
-//         console.log("C")
-//     }else if(marks>=33 && marks<59){
-//         console.log("D");
-//     }else{
-//         console.log("Fail");
-//     }
-    
-// }
-// gradeingSystem(99);
-// gradeingSystem(85);
-// gradeingSystem(72);
-// gradeingSystem(56);
-// gradeingSystem(22);
-
-// function isRainingOrNot(temp,isRaining){
-//     if(temp>=20 && temp<=25 && !isRaining){
-//         console.log("Not raining children go to park");
-//     }else if(temp>18 && temp<=20 && isRaining){
-//         console.log("is raining children do't go to park");
-//     }else{
-//         console.log("go home stay there");
-//     }
-// }
-// isRainingOrNot(20,false);
-// isRainingOrNot(20,true);
-// isRainingOrNot(26,false);
-
-// function findNumPosOrNeg(num){
-//     let x=5;
-//     switch(true){
-//         case (num>=x):{
-//             console.log("Positice");
-//             break;
-//         }
-//         case (num==0):{
-//             console.log("Zero");
-//             break;
-//         }
-//         case (num<x):{
-//             console.log("Negative");
-//             break;
-//         }
-//         default:{
-//             console.log("Invalid");
-//         }
-//     }
-// }
-// findNumPosOrNeg(5);
-// findNumPosOrNeg(0);
-// findNumPosOrNeg(-3);
-// findNumPosOrNeg("abc");
 
 
-// function findNumPosOrNeg(num){
-//     if(num>0){
-//         console.log("Positive");
-//     }else if(num==0){
-//         console.log("Zero");
-//     }else if(num<0){
-//         console.log("Negative");
-//     }else{
-//         console.log("Invalid");
-//     }
-// }
-// findNumPosOrNeg(6);
-// findNumPosOrNeg(0);
-// findNumPosOrNeg(-5);
-// findNumPosOrNeg("abc");
+
+
+
+
 
 // function sumTillN(n){
 //     let sum = 0;
@@ -333,41 +265,6 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 // sumTillN(10);
 // sumTillN(5);
 // sumTillN(20);
-
-// function printStars(num){
-//     for(i=0;i<=num;i++){
-//         let stars ="";
-//         for(let j=0;j<=i;j++){
-//             stars+="*";
-//         }
-//         console.log(stars);
-//     }
-// }
-// printStars(5);
-
-// function printStars(stars){
-//     for(var star="*";star.length<=stars;star+="*"){
-//         console.log(" "+star);
-//     }
-// }
-// printStars(5)
-
-// function printStars(num){
-   
-//         for(i=1;i<=num;i++){
-//             let stars=""
-//             for(j=1;j<=num-i;j++){
-//                 stars +=" ";
-//             }
-//             for( k=0;k<2*i-1;k++){
-//                 stars +=k.toString();
-//             }
-            
-//             console.log(stars);
-//     }
-   
-// }
-// printStars(5);
 
 
 // function printTable(n){
