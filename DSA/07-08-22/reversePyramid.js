@@ -10,7 +10,9 @@ function reversePyramid(num){
             revpy +=k+" ";
            // revpy +=j.toString();
         }
+        
         console.log(revpy);
     }
+   
 }
 reversePyramid(9);
