@@ -1,4 +1,4 @@
-/*function starString(num){
+function starString(num){
      
     for(let i=1;i<=num;i++){
         let stars="";
@@ -9,7 +9,7 @@
         console.log(stars);
     }
 }
-starString(5);*/
+starString(5);
 
 // function starString(num){
 
