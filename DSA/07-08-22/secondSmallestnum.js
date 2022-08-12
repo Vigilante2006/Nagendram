@@ -1,24 +1,23 @@
 
 
 function findSecondSmallestNum(array){
+    let smallest = Number.MAX_VALUE;
+    let secondsmallest = Number.MAX_VALUE;
 
-    let max=0;
-    let min=0;
     for(let i=0;i<array.length;i++){
-       
-        if(max>array[i]){
-            max=array[i];
-            console.log(max);
+        if(array[i]<smallest){
+           // secondsmallest=smallest;
+            smallest=array[i];
         }
-        if(min<array[i]){
-            min=array[i];
-            console.log(min);
+        if(array[i]>smallest && array[i]<secondsmallest){
+            secondsmallest = array[i];
         }
-        //array[i-1]<array[i];
     }
-    console.log("max: "+max)
-    console.log("min: "+max);
+    console.log(secondsmallest);
+
     
-   // console.log(result);
 }
 findSecondSmallestNum([11,34,54,22,13,78])
+//console.log(Number.MAX_VALUE);
+//findSecondSmallestNum([1,2,3,4,5,6]);
+//findSecondSmallestNum([12,56,112,-65,-23,18])
