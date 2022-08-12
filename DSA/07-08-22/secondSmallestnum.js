@@ -13,7 +13,7 @@ function findSecondSmallestNum(array){
             secondsmallest = array[i];
         }
     }
-    console.log(secondsmallest);
+    console.log("second smallest is: "+secondsmallest);
 
     
 }
