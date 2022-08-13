@@ -1,5 +1,5 @@
 
-// print waveform 
+//print waveform 
 function printWaveForm(matrix){
      
     let collength = matrix[0].length;
@@ -25,3 +25,6 @@ const matrix = [
 ];
 
 printWaveForm(matrix);
+
+
+
