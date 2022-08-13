@@ -438,21 +438,22 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 // }
 // canArrayBeSorted([1,2,3,4,5,6]);
 
-function findSingleDigitSum(num){
-    let numStr = num.toString()
-    if(numStr.length==1){
-        return numStr;
-    }
-    let sum =0 ;
-    for(let i=0;i<numStr.length;i++){
-        sum +=Number(numStr[i]);
+// function findSingleDigitSum(num){
+//     let numStr = num.toString()
+//     if(numStr.length==1){
+//         return numStr;
+//     }
+//     let sum =0 ;
+//     for(let i=0;i<numStr.length;i++){
+//         sum +=Number(numStr[i]);
       
-    }
-    if(sum>9){
-        findSingleDigitSum(sum);
-    }else{
-    console.log(sum);
-    }
-}
-findSingleDigitSum(12345);
+//     }
+//     if(sum>9){
+//         findSingleDigitSum(sum);
+//     }else{
+//     console.log(sum);
+//     }
+// }
+// findSingleDigitSum(12345);
+
 
