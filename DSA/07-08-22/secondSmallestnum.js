@@ -21,3 +21,9 @@ findSecondSmallestNum([11,34,54,22,13,78])
 //console.log(Number.MAX_VALUE);
 //findSecondSmallestNum([1,2,3,4,5,6]);
 //findSecondSmallestNum([12,56,112,-65,-23,18])
+
+let arr = [111,13,25,9,34,1];
+let n=arr.length;
+arr.sort();
+console.log(arr[0]);
+console.log(arr[1]);

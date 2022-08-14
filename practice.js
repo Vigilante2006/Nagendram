@@ -457,3 +457,98 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 // findSingleDigitSum(12345);
 
 
+// let rainForestAcres = 10;
+
+// let animals = 0;
+
+
+// while (rainForestAcres < 13 || animals <= 2) {
+
+//  rainForestAcres++;
+
+//  animals += 2;
+
+// }
+
+
+// console.log(animals);
+
+
+// var a=["dog","cat","hen"];
+// a[2] = "fox";
+// console.log(a.length);
+
+
+// function findSumOFMatrix(matrix){
+//     let lowerTrianglesum=0;
+//     let upperTriangleSum=0;
+    
+//     for(let i=0; i<matrix.length; i++){
+
+//         for(let j=0; j<=i; j++){
+//             lowerTrianglesum+=matrix[i][j];
+//         }
+    
+//         for(let j=i; j<matrix[i].length; j++){
+//             upperTriangleSum+= matrix[i][j];  
+//     }
+// }
+//     console.log(lowerTrianglesum);
+//     console.log(upperTriangleSum);
+// }
+// const matrix= [
+//     [3,4,5],
+//      [3,4,2], 
+//      [2,3,4],
+//     ];
+//       findSumOFMatrix(matrix);
+
+
+// function secondSmallest(array){
+
+
+//     smallest1 = array[0];
+//     smallest2 = array[1];
+// for(let i=0;i<array.length;i++){
+
+//     if(smallest1 > array[0]){
+//         smallest1 = array[0];
+//     }
+
+
+// }
+// for(let i=0;i<array.length;i++){
+
+//     if( smallest1 == smallest2){
+//         smallest2 = array[i];
+//     }
+// }
+
+// // console.log("First Smallest number is ",smallest1);
+
+
+
+// for(let i=0;i<array.length;i++){
+
+//     if(i == array.indexOf(smallest1)){
+//         continue;
+//     }
+//     if(smallest2 > array[i]){
+//         smallest2 = array[i];
+//     }
+
+// }
+
+// console.log("Second Smallest number is ",smallest2);
+
+
+// }
+
+// secondSmallest([1,2,3,4,9]);
+
+var arr = [111,13,25,9,34,1];
+//let n=arr.length;
+arr.sort();
+console.log(arr);
+//console.log(arr[0]);
+//console.log(arr[1]);
