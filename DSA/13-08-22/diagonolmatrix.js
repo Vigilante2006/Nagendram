@@ -26,4 +26,12 @@ const matrix2 = [
     [0,0,3,0],
     [0,0,0,4]
 ];
+const matrix3 = [
+    [0,0,0,0],
+    [0,0,0,0],
+    [0,0,0,0],
+    [0,0,0,0]
+];
+console.log(diagonolMatrix(matrix));
 console.log(diagonolMatrix(matrix2));
+console.log(diagonolMatrix(matrix3));
