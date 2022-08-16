@@ -553,3 +553,4 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 //console.log(arr[0]);
 //console.log(arr[1]);
 
+

@@ -18,8 +18,6 @@ function findMaxProfit(array){
 
     for(let i=0;i<array.length-1;i++){
         sellingPrice = array[i+1];
-        buyingPrice = array[i];
-
         if(changeBuyingPrice){
             buyingPrice=array[i];
         }
