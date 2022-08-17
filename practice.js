@@ -546,10 +546,15 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 
 // secondSmallest([1,2,3,4,9]);
 
-// var arr = [111,13,25,9,34,1];
-// //let n=arr.length;
+var arr = [111,13,25,9,34,1];
+let n=arr.length;
+arr.sort();
+console.log(arr);
+var arr=[1,13,25,9,111,34]
+arr.sort();
+console.log(arr);
 // arr.sort();
-// console.log(arr);
+//console.log(n);
 //console.log(arr[0]);
 //console.log(arr[1]);
 

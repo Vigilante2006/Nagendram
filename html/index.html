@@ -11,8 +11,104 @@
             <q><i>FULL STACK DEVELOPMENT</i></q>
         </div>
         <hr>
-        <p>this is survey form to understand the knowledge of base of the learners prior to the starting of the class. </p>
-        
+        <p>this is survey form to understand the knowledge 
+            of base of the learners prior to the starting 
+            of the class. </p>
+        <form action="/" method="get">
+            <h3>Learner Info:</h3>
+            <div>
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for ="fname">
+                                    Name:
+                                </label>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Enter your Name.">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for ="age">Age:</label>
+                            </td>
+                            <td>
+                                <input type="number"
+                                placeholder="Enter your Age.">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <laber for = "pno">
+                                    Phone Number:
+                                </laber>
+                            </td>
+                            <td>
+                                <input type="number" 
+                                placeholder="Enter your phone number">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+            <hr>
+            <ol>
+                <li>
+                    <p>please enter your favorite web language</p>
+                    <div>
+                        <input type="checkbox" id="html" value="HTML">
+                        <label for="html">HTML</label>
+                        <br>
+                        <input type="checkbox" id="css" value="CSS">
+                        <label for="css">CSS</label>
+                        <br>
+                        <input type="checkbox" id="javascript" value="JAVASCRIPT">
+                        <label for="javascript">JAVASCRIPT</label>
+                    </div>
+                </li>
+                <li>
+                <p>what is the name of your computer science degree ?</p>
+                <br>
+                <input type="text" id="college">
+                </li>
+                <li>
+                    <p>how will your rate yourself for the fowlling languages ?</p>
+                        <table>
+                            <tr>
+                                <th></th>
+                               <th>New</th>
+                               <th>Basic Level</th>
+                               <th>Medium Level</th>
+                               <th>Advanced Level</th>
+                            </tr>
+                            <tr>
+                                <td>HTML</td>
+                                <td><input type="radio" name="new_html" value="new_html"></td>
+                                <td><input type="radio" name="basic_html" value="basic_html"></td>
+                                <td><input type="radio" name="medium_html"value="medium_html"></td>
+                                <td><input type="radio" name="advanced_html" value="advanced-html"></td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td><input type="radio" name="new_css" value="new_css"></td>
+                                <td><input type="radio" name="basic_css" value="basic_css"></td>
+                                <td><input type="radio" name="medium_css"value="medium_css"></td>
+                                <td><input type="radio" name="advanced_css" value="advanced-css"></td>
+                            </tr>
+                            <tr>
+                                <td>JAVASCRIPT</td>
+                                <td><input type="radio" name="new_js" value="new_js"></td>
+                                <td><input type="radio" name="basic_js" value="basic_js"></td>
+                                <td><input type="radio" name="medium_js"value="medium_js"></td>
+                                <td><input type="radio" name="advanced_js" value="advanced-js"></td>
+                            </tr>
+                     </table>
+                </li>
+            </ol>
+            <button type="submit" form="form1" value="SUBMIT">Submit</button>
+
+        </form>
     </body>
 
 </html>
