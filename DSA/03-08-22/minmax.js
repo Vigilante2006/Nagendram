@@ -17,7 +17,7 @@ function findMinMax(array){
 	console.log("Max: "+max);
 }
 findMinMax([3, 2, 9, 8])
-console.log(Number.MAX_VALUE);
+//console.log(Number.MAX_VALUE);
 findMinMax([2, 3, 15, 6]);
 
 

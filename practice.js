@@ -528,6 +528,9 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 
 
 
+
+
+
 // for(let i=0;i<array.length;i++){
 
 //     if(i == array.indexOf(smallest1)){
@@ -558,3 +561,237 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 //console.log(arr[0]);
 //console.log(arr[1]);
 
+// const isEqual = function(obj1,obj2){
+
+//     const keys1 = Object.keys(obj1);
+//     const keys2 = Object.keys(obj2);
+
+//     return keys1.length == keys2.length && keys2.filter((key)=>obj1[key]==obj2[key]);
+
+// }
+
+// const isEqualValue = function(obj1,obj2){
+
+//     const values1 = Object.values(obj1);
+//     const values2 = Object.values(obj2);
+
+//     return values1.length == values2.length && values1.every((v,i)=>v==values2[i]);
+// }
+
+
+// var student = {
+//     "fname":"nagendram",
+//     "lname":"mankena"
+// };
+// var student_copy = {
+//     "fname":"nagendram",
+//     "lname":"mankena"
+// };
+
+// console.log(isEqual(student,student_copy));
+// console.log(isEqualValue(student,student_copy));
+
+// let lcm = (n1,n2)=>{
+//     let lar = Math.max(n1,n2)
+//     let small = Math.min(n1,n2)
+
+//     let i=lar;
+//     while(i%small!==0){
+//         i+=lar;
+//     }
+//     return i;
+
+// }
+// console.log(lcm(5,7));
+
+
+// const calculateLCM = (...arr) => {
+//     const gcd2 = (a, b) => {
+//        // Greatest common divisor of 2 integers
+//        if(!b) return b===0 ? a : NaN;
+//           return gcd2(b, a%b);
+//     };
+//     const lcm2 = (a, b) => {
+//        // Least common multiple of 2 integers
+//        return a * b / gcd2(a, b);
+//     }
+//     // Least common multiple of a list of integers
+//     let n = 1;
+//     for(let i = 0; i < arr.length; ++i){
+//        n = lcm2(arr[i], n);
+//     }
+//     return n;
+//  };
+//  console.log(calculateLCM(12, 18, 7, 15, 20, 24, 28));
+
+
+// const array = ["mumbai","andhra","kerala","london","india"];
+// const num = [1,2,3,4,6,7];
+// for(let i=0;i<array.length;i++){
+    
+//     console.log(array[i]);
+// }
+// for(let j=0;j<num.length;j++){
+//     console.log(num[j]);
+// }
+
+// var stringArray = ["one","two","three","four"];
+// var numericArray =[1,2,3,4];
+// console.log(numericArray[1]+numericArray[2]);
+// console.log(stringArray.indexOf("three"));
+// var numericArray = new Array([3,4,5,6]);
+// console.log(numericArray);
+// var numericArray = new Array("cat","dog");
+// console.log(numericArray);
+
+// var sinDArray = ["h","e","l","l","o"];
+// console.log(sinDArray[0]+sinDArray[1]+sinDArray[2]+sinDArray[3]+sinDArray[4])
+// console.log(sinDArray[1]);
+// console.log(sinDArray[2]);
+// console.log(sinDArray[3]);
+// console.log(sinDArray[4])
+
+// var items = [
+//     [2,3,5],
+//     [4,5,8],
+//     [6,7,9]
+// ];
+// console.log(items[0][0])
+// console.log(items[1][1]);
+// console.log(items[2][1])
+// //console.log(items);
+// for(var val of items){
+// console.log(val);
+// }
+
+// const obj = [10,20,30];
+// for(const val of obj){
+//     console.log(val);
+// }
+
+// const laptop = {
+//     make:"India",
+//     model:"Alienware",
+//     memory:["SSD","HDD"],
+//     cores:8,
+//     memorySize:[256,512],
+//     getModel:function(){
+//         return this.make;
+//     }
+
+// };
+// const laptopObj = Object.create(laptop)
+// console.log("laptopSpecifications:")
+// console.log(laptop);
+// console.log(laptop.getModel())
+// console.log(laptop.memory[0]);
+
+
+// const userData = {
+//     name:"Ravi",
+//     email:"nagendramcse46@gmail.com",
+//     age:32,
+//     dob:"20/06/1989",
+//     active:true
+// }
+
+
+// for(const key in userData){
+//     console.log(`${key}:${userData[key]}`)
+// };
+
+// const nameforcourse = {
+//     java:15,
+//     javascript:78,
+//     nodejs:38,
+//     php:96,
+// };
+// const keys = Object.keys(nameforcourse);
+// console.log(keys);
+// keys.forEach((key)=>{
+//     console.log(`${key}:${nameforcourse[key]}`)
+// });
+// const entries = Object.entries(nameforcourse);
+// console.log(entries);
+//  //const values = Object.values(nameforcourse);
+// // console.log(values);
+// Object.values(nameforcourse).forEach((val)=>console.log(val));
+
+
+// const laptop = {
+//     name:"dell",
+//     model:"Alienware",
+//     cores:8,
+//     memorysize:[256,512]
+
+// };
+// const lapObj = Object.assign({},laptop);
+// console.log(lapObj);
+
+
+// const platForm = {
+  
+//     name:"relevel",
+//     website:"www.relevel.com",
+    
+//     interactWith:"slack",
+
+
+// }
+
+
+
+// platForm.educator = "Dheeraj";
+// platForm.mentor = "Ankitha gupta";
+// console.log(Object.isSealed(platForm));
+// Object.seal(platForm);
+// platForm.ta = "gurpreet";
+// console.log(platForm)
+// Object.freeze(platForm)
+// platForm.name = "unacademy";
+// console.log(Object.isSealed(platForm));
+
+// const singles = ["pen","book","pencil"];
+// const plurals = singles.map((n)=>n+"s");
+// console.log(plurals);
+// const div = [" "," " ," " ,];
+// const output = div.map((num)=>num+10);
+// console.log(output);
+
+// const item = [100,23,490,57,34,63,26,39];
+// //const itemcost = item.filter(price=>price>=50);
+// const itemcost1 = item.filter(price=>price>=70)
+// console.log(itemcost1);
+// //console.log(itemcost);
+
+// const city = [
+//     {name:"londone",population:"500000"},
+//     {name:"swidzerland",population:"1000000"},
+//     {name:"shangai",population:"1230000"},
+//     {name:"austrlia",population:"302004000"},
+//     {name:"india",population:"123000000"}
+// ];
+// const cities = city.filter((num)=>num.population<=5000000);
+// console.log(cities);
+
+// var num = [1,2,3,5,9];
+// num.forEach(val=>console.log(val));
+// var sum = num.reduce((curr,prev)=>curr+prev)/num.length;
+// console.log(sum);
+
+// const array = [12,43,11,13,56,92,48,52];
+// array.sort((a,b)=>a-b)
+// console.log(array);
+// array.sort((a,b)=>b-a)
+// console.log(array);
+// const reverseArray = array.reverse();
+// console.log(reverseArray);
+
+
+// const string = ["12345","relevel"];
+// const splitString = string.split("");
+// console.log(splitString)
+
+const animals = ["lion","Tiger","zerafee","duck","camel"];
+const newarray = animals.slice(2,3);
+console.log(newarray);

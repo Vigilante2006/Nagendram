@@ -10,32 +10,32 @@
 // ["employed","dockyard","MCD",30000],
 // [true,false,"9032404542","y20152145"]
 
-// var fname = "fname";
-// const raviData = {
-//     fname :"Ravi",
-//     "lname":"kumar",
-//     "age":30,
-//     "location":"vizag",
-//     "maried":true,
-//     "education":"b.tech",
-//     "dob":"21/06/1981",
-//     "employment":{
-//         "company":"Dockyard",
-//         "dept":"Mcd",
-//         "salary":30000
-//     },
-//     "marks":[9,9.5,10,9.86,9.23]
-// };
+var fname = "fname";
+const raviData = {
+    fname :"Ravi",
+    "lname":"kumar",
+    "age":30,
+    "location":"vizag",
+    "maried":true,
+    "education":"b.tech",
+    "dob":"21/06/1981",
+    "employment":{
+        "company":"Dockyard",
+        "dept":"Mcd",
+        "salary":30000
+    },
+    "marks":[9,9.5,10,9.86,9.23]
+};
 
-//  console.log(raviData.fname);
-// console.log(raviData.education);
-//  console.log(raviData["age"]);
-// console.log(raviData.employment.salary);
-// console.log(raviData["employment"].salary);
-// console.log(raviData["employment"]["salary"]);
-// console.log(raviData.marks[2]);
-// console.log(raviData);
-// console.log(raviData["marks"][3])
+ console.log(raviData.fname);
+console.log(raviData.education);
+ console.log(raviData["age"]);
+console.log(raviData.employment.salary);
+console.log(raviData["employment"].salary);
+console.log(raviData["employment"]["salary"]);
+console.log(raviData.marks[2]);
+console.log(raviData);
+console.log(raviData["marks"][3])
 
 
 // const students = [
