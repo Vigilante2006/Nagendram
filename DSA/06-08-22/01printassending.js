@@ -1,24 +1,45 @@
 
 
-function printAssendingOrder(array){
+function rearrangeing(arr,size){
 
-       let count =0
-    for(let i=0;i<array.length;i++){
-            if(array[i]==0)
-            count++;
-    }
-    for(let i=0;i<count;i++){
-        array[i] = 0;
-        for(let i=count;i<array.length;i++){
-            array[i]=1;
+    let mid = 0;
+    let end = size-1;
+    let swap = 0;
+    while(mid<=end){
+        if(arr[mid]==0){
+            mid++;
+        }else{
+            swap = arr[end];
+            arr[end] = arr[mid];
+            arr[mid] = swap;
+            end--;
         }
     }
-
-
-    for(let i=0;i<array.length;i++){
-        console.log(array[i]+ " ");
-    }
-    
+    return arr;
 }
+var arr = [1,1,0,0,1,0,1,0,1,0];
+var size = arr.length;
+console.log(rearrangeing(arr,size));
 
-printAssendingOrder([0,1,1,0,0,1,0,1]);
+// function printAssendingOrder(array){
+
+//        let count =0
+//     for(let i=0;i<array.length;i++){
+//             if(array[i]==0)
+//             count++;
+//     }
+//     for(let i=0;i<count;i++){
+//         array[i] = 0;
+//         for(let i=count;i<array.length;i++){
+//             array[i]=1;
+//         }
+//     }
+
+
+//     for(let i=0;i<array.length;i++){
+//         console.log(array[i]+ " ");
+//     }
+    
+// }
+
+// printAssendingOrder([0,1,1,0,0,1,0,1]);

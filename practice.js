@@ -792,6 +792,270 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 // const splitString = string.split("");
 // console.log(splitString)
 
-const animals = ["lion","Tiger","zerafee","duck","camel"];
-const newarray = animals.slice(2,3);
-console.log(newarray);
+// const animals = ["lion","Tiger","zerafee","duck","camel"];
+// const newarray = animals.slice(2,3);
+// console.log(newarray);
+
+// function findMinandMax(arr){
+
+//     let min = Number.MAX_VALUE;
+//     let max = Number.MIN_VALUE;
+//     for(let i=0;i<arr.length;i++){
+//         if(arr[i]<min){
+//             min=arr[i];
+//         }
+//         if(arr[i]>max){
+//             max=arr[i];
+//         }
+        
+//     }
+//     console.log("MIN: "+min);
+//     console.log("MAX: "+max);
+   
+// }
+// findMinandMax([1,32,5,23,6,7,100,0,134,54,6,6576]);
+
+
+// function findmaxprofitstock(arr){
+
+//     let maxprofit=0;
+//     let sellingprice = 0;
+//     let buyingprice = 0;
+//     let changebuyingprice = true;
+
+//     for(let i=0;i<arr.length-1;i++){
+//         sellingprice = arr[i+1];
+//         if(changebuyingprice){
+//             buyingprice=arr[i];
+//         }
+//         if(sellingprice<buyingprice){
+//             changebuyingprice = true;
+//             continue;
+//         }else{
+//             let profit = sellingprice-buyingprice;
+//             if(profit>maxprofit){
+//                 maxprofit=profit;
+//             }
+//         }
+//     }
+//     console.log(maxprofit);
+// }
+// findmaxprofitstock([123,234,256,345,567,50,689,788]);
+// findmaxprofitstock([100,180,260,310,40,535,695]);
+
+
+// function reverseArray(arr){
+//     let result = [];
+//     let j=0;
+//     for(let i=arr.length-1;i>=0;i--){
+//         result[j]=arr[i];
+//         j++;
+//     }
+//     console.log(result);
+// }
+// reverseArray([1,2,3,4,5,6,7,8,9,10]);
+
+// function rearrangeing(arr, size){
+
+//     let mid=0;
+//     let end = size-1;
+//     let swap = 0;
+//     while(mid<=end){
+//         if(arr[mid]==0){
+//             mid++
+
+//         }else{
+//             swap = arr[mid];
+//             arr[mid]=arr[end];
+//             arr[end]=swap;
+//             end--;
+//         }
+//     }
+//     return arr;
+// }
+// var arr = [1,0,1,0,1,0,1,0,1,1,0,0,0,];
+// var size = arr.length;
+// console.log(rearrangeing(arr,size);
+
+
+// function reverseArray(array){
+//     if(array.length==1){
+//         return true;
+//     }
+//     let startIndex;
+//     for(let i=0;i<=array.length;i++){
+//         if(array[i]>array[i+1]){
+//             startIndex = i;
+//             break;
+//         }
+//     }
+//     let endIndex;
+//     for(let i=startIndex;i<array.length;i++){
+//         if(array[i]<array[i+1] || i==array.length-1){
+//             endIndex=i;
+//             break;
+
+//         }
+//     }
+//     let decreasingArray = [];
+//     let j=0;
+//     for(let i=startIndex;i<=endIndex;i++){
+//         decreasingArray[j]=array[i];
+//         j++;
+//     }
+//     for(let i=decreasingArray.length-1;i>=0;i--){
+//         array[startIndex]=decreasingArray[i];
+//         startIndex++;
+//     }
+//     console.log("Main array after reverse: ",array);
+//     for(let i=0;i<array.length-1;i++){
+//         if(array[i]>array[i+1]){
+//             //console.log(false);
+//             reverseArray(array);
+//             return;
+//         }   
+//      }
+//      console.log(true);
+// }
+// reverseArray([1,2,5,4,3]);
+// reverseArray([1,2,3,7,6,5,8,9,12,11,10])
+
+
+// function printPrimeNum(n){
+//     for(let i=2;i<=n;i++){
+//         let isPrime = true;
+//         for(let j=2;j<=i-1;j++){
+//             if(i%j==0){
+//                 isPrime =false;
+//                 break
+//             }
+//         }
+//         if(isPrime){
+//             console.log(i);
+//         }
+//     }
+// }
+// printPrimeNum(100);
+
+// function findSingleDigitSum(num){
+//     let numStr = num.toString();
+//     if(numStr.length==1){
+//         return true;
+//     }
+//     let sum=0;
+//     for(let i=0;i<numStr.length;i++){
+//         sum +=Number(numStr[i]);
+//     }
+    
+//     if(sum>9){
+//         findSingleDigitSum(sum);
+
+//     }else{
+//         console.log(sum);
+//     }
+// }
+// findSingleDigitSum(1234456);
+
+// function reversePyramid(n){
+
+//     for(let i=1;i<=n;i++){
+//         let patt = "";
+//         for(let j=1;j<=i;j++){
+//              patt +=" "; 
+//          }
+//          for(let k=i;k<n;k++){
+//             patt +=k+" ";
+//          }
+//         console.log(patt);
+//     }
+// }
+// reversePyramid(9);
+
+// console.log(typeof NaN);
+// console.log(NaN == NaN);
+
+// function sparcematrix(matrix){
+
+
+//     let startrow=0;
+//     let startcol=0;
+//     let endrow=matrix.length-1;
+//     let endcol = matrix[0].length-1;
+//     while(startrow<endrow && startcol<endcol){
+//     for(let i=startcol;i<=endcol;i++){
+//         console.log(matrix[startrow][i]);
+//     }
+//     startrow = startrow+1;
+//     for(let i=startrow;i<=endrow;i++){
+//         console.log(matrix[i][endcol])
+//     }
+//     endcol=endcol-1;
+//     for(let i=endcol;i>=startcol;i--){
+//         console.log(matrix[endrow][i]);
+//     }
+//     endrow = endrow-1;
+//     for(let i=endrow;i>=startrow;i--){
+//         console.log(matrix[i][startcol])
+//     }
+//     startcol = startcol+1;
+// }
+
+// }
+// const matrix = [
+//     [1,2,3,4],
+//     [5,6,7,8],
+//     [9,10,11,12],
+//     [13,14,15,16]
+// ];
+// sparcematrix(matrix);
+
+
+// const transpose = arr=>{
+//     for(let i=0;i<arr.length;i++){
+//        for(let j=0;j<i;j++){
+//           const temp = arr[i][j];
+//           arr[i][j] =arr[j][i];
+//           arr[j][i] = temp;
+//        }
+//     }
+//   }
+//   const arr = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+//   ];
+//   transpose(arr);
+//   console.log(arr);
+
+function waveform(matrix){
+ let collength  = matrix[0].length;
+    for(let col = 0;col<collength;col++){
+        if(col%2==0){
+            for(let i=0;i<matrix.length;i++){
+                console.log(matrix[i][col]);
+            }
+        }else{
+            for(let i=matrix.length-1;i>=0;i--){
+                console.log(matrix[i][col]);
+            }
+        }
+    }
+}
+const matrix = [
+    [1,2,3,4]
+    [5,6,7,8],
+    [9,10,11,12]
+    [13,14,15,16]
+];
+waveform(matrix);
+
+
+// const A=[
+//     [1,2,3],
+//     [3,3,5]
+// ];
+// A[2].length
+// //A[1][2]=A[1][2]+5;
+// //A[1][2] = 10;
+// //A[1][2] = A[1][2]*2;
+// console.log(A);

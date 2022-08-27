@@ -10,8 +10,10 @@ const arr = [
           const tmp = arr[i][j];
           arr[i][j] = arr[j][i];
           arr[j][i] = tmp;
-       };
+       }
     }
  }
  transpose(arr);
  console.log(arr);
+
+

@@ -245,19 +245,19 @@
   
 
 
-// const onedarray1 = [2,4,6,7,9,53,6,4,33,9,5,2,98,7]
+const onedarray1 = [2,4,6,7,9,53,6,4,33,9,5,2,98,7]
 
-// const twodarray1 = [];
+const twodarray1 = [];
 
-// for(let i=0 ; i<onedarray1.length/5 ; i++){
-//     const array = [];
-//     const jindex = i*5
-//     for(var j=jindex;j<jindex+5;j++){
-//         array.push(onedarray1[j]);
-//     }
-//     twodarray1.push(array);
-// }
-// console.log(twodarray1);
+for(let i=0 ; i<onedarray1.length/5 ; i++){
+    const array = [];
+    const jindex = i*5
+    for(var j=jindex;j<jindex+5;j++){
+        array.push(onedarray1[j]);
+    }
+    twodarray1.push(array);
+}
+console.log(twodarray1);
 
 
 
@@ -291,24 +291,24 @@
 //   }
 // }
 // doSomething();
-const matrix = [
-  [1,9,3],
-  [4,5,6],
-  [7,8,2]
-];
+// const matrix = [
+//   [1,9,3],
+//   [4,5,6],
+//   [7,8,2]
+// ];
 
-function interchange(matrix){
-  let result = [];
-  for(let i=0;i<matrix.length;i++){
-    for(let j=0;j<matrix[0].length;j++){
-     var temp = matrix[i][j];
-      matrix[i][j] = matrix[j][i];
-      matrix[j][i] = temp;
-    }
-  }
-  result.push(temp);
-  console.log(result);
-}
-interchange(matrix);
+// function interchange(matrix){
+//   let result = [];
+//   for(let i=0;i<matrix.length;i++){
+//     for(let j=0;j<matrix[0].length;j++){
+//      var temp = matrix[i][j];
+//       matrix[i][j] = matrix[j][i];
+//       matrix[j][i] = temp;
+//     }
+//   }
+//   result.push(temp);
+//   console.log(result);
+// }
+// interchange(matrix);
 
 //matrix(matrix);

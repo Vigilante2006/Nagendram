@@ -1,28 +1,60 @@
 
 
-function sparseMatrix(matrix){
+// function sparseMatrix(array,m,n){
+    
+//     for(let i=0;i<m;i++){
+//         let count =0;
+//         for(let j=0;j<n;j++){
+//             if(array[i][j]==0){
+//                  count++;
+//             }
+//         }
+//     return (count>parseInt(m*n)/2,10);
+//     }
 
-    let count = 0;
-    //var totalelements;
-    for(let i=0;i<matrix[0].length;i++){
-        for(let j=0;j<matrix.length;j++){
-           if(matrix[i][j]!=0){
-            //totalelements.push_back(matrix[i][j]);
-            count++;
-            //return (count > parseInt((m*n)/2),10);
+// }
 
-            
-        return true;    
+// const matrix=[
+//     [1,0,15,0],
+//     [7,0,0,22],
+//     [0,0,0,0],
+//     [10,0,0,28]
+// ];
+// if(sparseMatrix(matrix,4,4)){
+//     console.log(true);
+
+// }else{
+//     console.log(false);
+// }
+
+let MAX =100;
+function sparseArray(array,m,n){
+    let count=0;
+    for(let i=0;i<m;i++){
+      
+        for(let j=0;j<n;j++){
+            if(array[i][j]==0){
+                count++;
+            }
         }
-            
-        }
+       
     }
-    return false;
+    return (count>parseInt(m*n)/2,10);
 }
-const matrix=[
-    [1,0,15,0],
-    [7,0,0,22],
-    [0,0,0,0],
-    [10,0,0,28]
-];
-console.log(sparseMatrix(matrix));
+// const array = [
+//     [1,0,0,3],
+//     [8,0,0,0],
+//     [0,0,0,2],
+//     [0,16,0,0]
+// ];
+const array1 = [
+    [1,2,3,4],
+    [0,9,0,8],
+    [1,5,0,7],
+    [0,0,0,9]
+]
+if(sparseArray(array1,4,4)){
+    console.log(true);
+}else{
+    console.log(false);
+}
