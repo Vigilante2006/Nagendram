@@ -9,6 +9,7 @@ function findSecondSmallestNum(array){
            // secondsmallest=smallest;
             smallest=array[i];
         }
+
         if(array[i]>smallest && array[i]<secondsmallest){
             secondsmallest = array[i];
         }

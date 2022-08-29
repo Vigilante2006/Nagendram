@@ -12,3 +12,16 @@ const complexObject = {
     "lname":"Mankena",
     
 }
+
+
+
+var student = {
+    "Roll_No":12,
+    "first_name":"Rithwik",
+    "last_name":"kumar",
+    "contact":9999999999,
+    "age":4,
+    "email":"lucky.123@gmail.com",
+}
+console.log(student);
+console.log(student.first_name);

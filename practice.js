@@ -1027,35 +1027,88 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 //   transpose(arr);
 //   console.log(arr);
 
-function waveform(matrix){
- let collength  = matrix[0].length;
-    for(let col = 0;col<collength;col++){
-        if(col%2==0){
-            for(let i=0;i<matrix.length;i++){
-                console.log(matrix[i][col]);
-            }
-        }else{
-            for(let i=matrix.length-1;i>=0;i--){
-                console.log(matrix[i][col]);
-            }
-        }
-    }
-}
-const matrix = [
-    [1,2,3,4]
-    [5,6,7,8],
-    [9,10,11,12]
-    [13,14,15,16]
-];
-waveform(matrix);
 
+// function waveform(matrix){
+//     let collength = matrix[0].length;
 
-// const A=[
-//     [1,2,3],
-//     [3,3,5]
+//     for(let i=0;i<collength;i++){
+//         if(i%2==0){
+//             for(let j=0;j<matrix.length;j++){
+//                 console.log(matrix[j][i])
+//             }
+//         }else{
+//             for(let k=matrix.length-1;k>=0;k--){
+//                 console.log(matrix[k][i])
+//             }
+//         }
+//     }
+// }
+// const matrix = [
+//     [1,2,3,4],
+//     [5,6,7,8],
+//     [9,10,11,12],
+//     [13,14,15,16]
 // ];
-// A[2].length
-// //A[1][2]=A[1][2]+5;
-// //A[1][2] = 10;
-// //A[1][2] = A[1][2]*2;
-// console.log(A);
+// waveform(matrix);
+
+
+// function uptriangleandlowtriangle(matrix){
+//     let up_triangle=0;
+//     let low_triangle=0;
+//     for(let i=0;i<matrix.length;i++){
+//         for(let j=0;j<matrix[0].length;j++){
+//             if(i<=j){
+//                 up_triangle += matrix[i][j];
+//             }
+//         }
+//     }
+//     console.log(up_triangle);
+//     for(let i=0;i<matrix[0].length;i++){
+//         for(let j=0;j<matrix[0].length;j++){
+//             if(j<=i){
+//                 low_triangle += matrix[i][j];
+//             }
+//         }
+//     }
+//     console.log(low_triangle);
+// }
+// const matrix= [
+//     [1,2,3],
+//     [5,6,7],
+//     [7,5,6],
+    
+// ];
+// uptriangleandlowtriangle(matrix);
+
+
+var a=[];
+a.unshift(1);
+a.unshift(22);
+a.shift();
+a.shift();
+a.unshift(3,[4,5]);
+a.shift();
+a.shift();
+a.shift();
+console.log(a);
+
+var values = ["one","two","three"];
+var ans = values.shift();
+console.log(ans);
+
+var grand_total = eval("10*10+5");
+console.log(grand_total);
+console.log(typeof grand_total);
+
+
+var tensquared = (function(x){return x*x} (10));
+console.log(tensquared);
+
+
+
+console.log(parseInt("123Hello"));
+console.log(parseInt("Helle123"));
+
+
+var a= true+true+true*3;
+console.log(a);
