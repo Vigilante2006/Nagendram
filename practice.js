@@ -1081,34 +1081,565 @@ console.log("hcf of ${first_value} & ${second_value} is {hcf_value}");*/
 // uptriangleandlowtriangle(matrix);
 
 
-var a=[];
-a.unshift(1);
-a.unshift(22);
-a.shift();
-a.shift();
-a.unshift(3,[4,5]);
-a.shift();
-a.shift();
-a.shift();
-console.log(a);
+// var a=[];
+// a.unshift(1);
+// a.unshift(22);
+// a.shift();
+// a.shift();
+// a.unshift(3,[4,5]);
+// a.shift();
+// a.shift();
+// a.shift();
+// console.log(a);
 
-var values = ["one","two","three"];
-var ans = values.shift();
-console.log(ans);
+// var values = ["one","two","three"];
+// var ans = values.shift();
+// console.log(ans);
 
-var grand_total = eval("10*10+5");
-console.log(grand_total);
-console.log(typeof grand_total);
-
-
-var tensquared = (function(x){return x*x} (10));
-console.log(tensquared);
+// var grand_total = eval("10*10+5");
+// console.log(grand_total);
+// console.log(typeof grand_total);
 
 
+// var tensquared = (function(x){return x*x} (10));
+// console.log(tensquared);
 
-console.log(parseInt("123Hello"));
-console.log(parseInt("Helle123"));
 
 
-var a= true+true+true*3;
-console.log(a);
+// console.log(parseInt("123Hello"))
+// console.log(parseInt("Helle123"));
+
+
+
+// var a= true+true+true*3;
+// console.log(a);
+
+
+
+// function fibb(n){
+//     if(n==0 || n==1){
+//         return n;
+//     }
+//     return fibb(n-1)+fibb(n-2);
+// }
+// console.log(fibb(7));
+
+// function incnum(n){
+//     if(n==0){
+//         console.log(1);
+//         return n;
+//     }
+//     incnum(n-1);
+//     console.log()
+// }
+// fibb(9);
+
+
+
+// var a = Math.max();
+// var b = Math.min();
+// console.log(a);
+// console.log(b);
+
+
+// var a =[1,2,3,4];
+// var ans = a.slice(1);
+// console.log(ans);
+
+// var a = true+true+true*3
+// console.log(a);
+
+// //  thisfun = fuction lfc(x){
+// // console.log(x*x);
+// // }
+// // thisfun(10);
+
+
+// function password(pass){
+//     for(i=0;i<pass.length;i++){
+
+//     }
+// }
+// function name(pname){
+//     console.log("the value of i is " +i);
+//     for(i=0;i<pname.length;i++){
+
+//     }
+// }
+// password("54321");
+// name("john");
+
+// num1 =5;
+
+// function cal(){
+//     num1 =10;
+//     num2 =5;
+//     num3 = num2*num1;
+//     console.log(num3);
+// }
+// cal();
+
+
+
+// while(a!=0){
+//     if(a===1){
+//         continue;
+//     }else{
+//         a++;
+//     }
+// }
+
+
+// function range(length){
+//     var a=5;
+//     for(let i=0;i<length;i++){
+//         console.log(a);
+//     }
+// }
+// range(3);
+
+
+// var counter = 10
+// if(counter<=5){
+//     console.log(counter)
+//     counter++;
+// }
+// else{
+//     console.log(counter);
+//     counter--;
+// }
+
+// function gradingSystem(score){
+//     if(score>=90){
+//         console.log("A");
+//     }
+//     else if(score>=80 && score<=89){
+//         console.log('B');
+//     }else if(score>=60 && score<=79){
+//         console.log("C");
+//     }else if(score>=33 && score<=59){
+//         console.log("D")
+//     }else{
+//         console.log("fail");
+//     }
+// }
+// gradingSystem(98);
+// gradingSystem(87);
+// gradingSystem(66);
+// gradingSystem(45);
+// gradingSystem(24);
+
+
+// function minlectures(m,n){
+
+//     if(m/n*100>=75){
+//         console.log("75% attendence is already is achieved");
+//     }else{
+//         console.log("not achieved");
+//     }
+
+// }
+// minlectures(7,6);
+// minlectures(3,5);
+
+
+
+// var a=1;
+// var b=5;
+// var c=1;
+
+// var result = b*b-4*a*c;
+
+// if(result>0){
+//     var r1 = (-b+Math.pow(result,0.5))/(2*a)
+//     var r2 = (-b-Math.pow(result,0.5))/(2*a);
+//     console.log("the roots are "+ r1 + "and " +r2);
+
+// }else if(result===0){
+//     var r1 = -b/(2*a);
+//     console.log("the root is " + r1);
+// }else{
+//     console.log("no real roots.");
+// }
+
+
+
+// // String s1 = "Hello";
+// // String s2 = new String("Hello");
+// // console.log(s1==s2);
+
+
+// function squaresum(num){
+//    var a=0;
+//    while(a*a<num){
+//     var b=0;
+//     while(b*b<num){
+//         if(a*a+b*b==num){
+//             if(a<=b){
+//                 console.log(a+","+b)
+//             }
+//         }
+//         b+=1;
+//     }
+//     a+=1;
+//    }
+// }
+// squaresum(50);
+// squaresum(25);
+// squaresum(100);
+// //str.charAt()
+// function checkpalindrome(str){
+//     var len=str.length;
+//     for(let i=0;i<len/2;i++){
+//         if(str[i]!=str[len-i-1]){
+//             return false;
+//         }
+//          return true;
+//     }
+// }
+    
+// for(let j=0;j<=100;j++){
+//         if(checkpalindrome(j.toString())){
+//             console.log(j);
+//         }
+//     }
+
+
+// function isRaining(temp,isRaining){
+//     if(temp>=20 && temp<=25 && !isRaining){
+//         console.log("children to go out inpark");
+//     }else if(temp>=18 && temp<=20 && isRaining){
+//         console.log("play in school")
+        
+//     }else{
+//         console.log("Go home and stay there");
+//     }
+// }
+// isRaining(22,false);
+
+// function printPass(marks){
+//  return marks>=40 ? "pass" : "fali"
+// }
+// console.log(printPass(50));
+// console.log(printPass(30));
+
+
+// function num(num){
+//     switch(num){
+//         case 1:(num>=0)
+//             console.log("positive");
+//             break;
+//         case 2:(num<0)
+//             console.log("negative")
+//             break;
+//         case 3:(num===0)
+//              console.log("zero");
+//             break;
+//         default:
+//         console.log("unknown")
+//     }
+   
+// }
+// num(23);
+// num(-76);
+// num(0);
+
+
+// let n = parseInt(readline());
+// let arr = [];
+// arr = readline().split(" ");
+
+// console.log(countOddNumbers(arr, n));
+
+// function countOddNumbers(arr, n) {
+//   let arn = {};
+//   for (let i = 0; i < n; i++) {
+// 	  console.log(typeof arr[i])
+//     if (arr[i] % 2 !== 0 && !Object.keys(arn)) {
+//       arn[arr[i]] = 1;
+//     } else if (arr[i] % 2 !== 0 && Object.keys(arn)) {
+//       arn[arr[i]] = 0;
+//     }
+//   }
+//  return(Object.keys(arn).length);
+// }
+// const arr = [3,6,9,54,7,19]
+// countOddNumbers(arr);
+// console.log(arr);
+
+
+// var a=15;
+// var b=25;
+// if((a<b) || (a=5)>15)
+// console.log(a);
+// else
+// console.log(b);
+
+
+// var x,y;
+// x=15;y=20;
+// if(x>15)
+
+// if(y>15){
+//     console.log("y is "+y)
+// }else
+//     console.log("x is "+x);
+
+// // 
+
+
+
+// function num(x,y){
+   
+//     if(y>15){
+//         console.log("y is "+y)
+//     }
+//     else if(x>15){
+//         console.log("x is "+x);
+//     }
+    
+// }
+// const x=15,y=20;
+// num(15,20);
+
+
+// var j=0;
+// while(j<10){
+//     j++;
+// }
+// if(j==5) continue loop;
+// console.log("j is")
+
+// var x=20;
+// var y=10;
+// if(x>y){
+//     if(y>10)
+//     console.log("y is "+y);
+// }else
+// console.log(" x is "+x);
+
+// var j=50;
+// while(true)
+// {
+//     if(j<10)
+//     break;
+//     j=j-10;
+// }
+// console.log(" j is "+j);
+
+// var x=5,y=1;
+// var obj = {x:10}
+// with(obj){
+//     alert(y);//1
+// }
+
+
+// for(var num=10;num>=1;num--){//this is an efficient
+//     console.log(num);
+// }
+// var num=10;
+// while(num>=1){
+//     console.log(num);
+//     num++;
+// }
+
+
+// var count = 0;
+// while(count<10){
+ 
+//     console.log(count);
+//     count++;
+// }
+
+// var grade = 'C';
+// var result;
+// switch(grade)
+// {
+// case'A':
+// {
+//     result+="10";
+//     break;
+// }
+// case'B':
+// {
+//     result+="9";
+//     break;
+// }
+// case 'C':
+// {
+//     result+="8";
+//     break;
+// }
+//     default:
+//         result+="0";
+// }
+// console.log(result)
+
+
+
+// function solve(arr,rotations){
+//     if(rotations == 0) return arr;
+//     for(let i=0;i<rotations;i++){
+//         let element= arr.pop();
+//         arr.unshift(element);
+//     }
+//     return arr;
+// }
+// console.log(solve([44,1,22,111],5));
+
+
+//var a= null;
+// console.log(typeof Boolean);
+
+
+// var a = 1;
+// var b = 0;
+// while(a<=3){
+//     a++;
+//     b+=a*2;
+    
+//     console.log(b);
+// }
+
+
+// var a = Math.max()<Math.min();//
+// var b = Math.min()<Math.max();
+// console.log(a);
+// console.log(b);
+
+// console.log(NaN === NaN)//false
+
+
+
+// var a = "hello";
+// var sum = 0;
+// for(var i=0;i<a.length;i++){
+//     sum += i;
+// }
+// console.log(sum);
+
+
+
+
+// const set = new Set();
+// set.add(5);
+// set.add("hello");
+// set.add({name:"scaler"});
+// for(let item of set){
+//     console.log(item+6);
+// }
+
+
+// const example = ({a,b,c})=>{
+//     console.log(a,b,c);
+
+// }
+// example(1,2,3);
+
+
+// let a = [1,2,3,4,5,6];
+// var left = 0; right = 5;
+// var found = false;
+// var target = 5;
+// while(left<=right){
+//     var mid = Math.floor(left+right)
+//     if(a[mid]==target){
+//         found = true;
+//         break;
+//     }else if(a[mid]<target){
+//         left = mid+1;
+//     }else{
+//         right = mid -1;
+//     }
+// }
+// if(found){
+//     console.log("yes");
+// }
+// else{
+//     console.log("NO")
+// }
+
+// console.log(typeof null);
+
+
+
+// const obj1 = {Name: "Hello", Age: 16};
+// const obj2 = {Name: "Hello", Age: 16};
+// console.log((obj1 == obj2));
+// let check = (arr,mid,n,k)=>{
+//     let count = 0;
+//     let sum =0;
+//     for(let i=0;i<n;i++){
+//         if(arr[i]>mid){
+//             return false;
+//         }
+//         sum += arr[i];
+//         if(sum>mid){
+//             count++;
+//             sum = arr[i];
+//         }
+//     }
+//    count++;
+//    if(count<=k){
+//         return true;
+//    }
+//    return false;
+// }
+// let solve = (arr,n,k)=>{
+//     let max = arr.reduce((a,b)=>Math.max(a,b));
+//     let start = max;
+//     let end = 0;
+//     for(let i=0;i<n;i++){
+//         end += arr[i];
+//     }
+//     let answer = 0,mid;
+//     while(start<=end){
+//         mid = parseInt(start+end)/2;
+//     }
+//     if(check(arr,mid,n,k)==true){
+//         answer = mid;
+//         end = mid-1;
+//     }
+//     else{
+//         start = mid+1;
+    //}
+
+
+
+   
+    //return answer;
+// }
+// let arr = [1,2,3,4];
+// let n=arr.length;
+// let k=3;
+// console.log(solve(arr,n,k));
+
+
+// function func(a,b){
+//     if(b==0){
+//         return 0;
+//     }
+//     if(b==1){
+//         return a;
+//     }
+//     return a+func(a,b-1);
+// }
+// console.log(func(3,8));
+
+
+
+   function fibb(n){
+    if(n<1) return -1;
+    if(n==0) return 0;
+    if(n==2) return 1;
+
+    let i=2;
+    series=[0,1];
+    while(i<=n-1){
+        let newNum = series[i-1]+series[i-2];
+        series.push(newNum);
+        i++;
+    }
+    console.log(series[i-1]);
+}
+fibb(10);

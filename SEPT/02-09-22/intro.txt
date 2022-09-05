@@ -1,0 +1,25 @@
+1.what is algorithm?
+
+=>set of steps to solve a problem.
+=>Formula to solve aproblem.
+=>set of instructions .
+=>set of codes.
+=>way to represent a solution.
+=>like a machine.
+=>make easy for  real world problem.
+Algorithm => Set of instructions.
+Function => wraper which wraps set of instructions.
+
+
+Mumbai => kashmir.
+Find shortest path from mumbai to kashmir.
+=>Dijkstra's Shortest path algorithm.
+what is analysis of algorithm ?
+why to analyze algorithm ?
+how to analyze algorthm ?
+
+log(b10)100 = 2 => 10*10 =100
+10=>1
+100=>2
+1000=>3
+10000=>4
