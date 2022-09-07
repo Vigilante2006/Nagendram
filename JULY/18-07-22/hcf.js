@@ -12,3 +12,15 @@ hcf(25,15);
 hcf(81,54);
 
 
+// function prime(n){
+//     for(let i=0;i<n;i++){
+//         if(n%i==0){
+//             return false;
+//         }
+//         return true;
+//     }
+// }
+
+
+
+
