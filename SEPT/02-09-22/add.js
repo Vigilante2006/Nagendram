@@ -23,3 +23,7 @@ function ceckTC(n){
     //O(n^2)
 }
 ceckTC(5)
+
+
+//an+bn*2+c1
+//O(n^2)

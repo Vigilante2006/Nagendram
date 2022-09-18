@@ -4,3 +4,5 @@ function square(n){
     }
 }
 square(10);
+
+

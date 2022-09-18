@@ -15,3 +15,6 @@ let maxIndexDiff = (arr)=>{
 maxIndexDiff([4,5,7,2]);
 maxIndexDiff([14,13,8,9,3,2,10,11,12,3]);
 
+
+
+

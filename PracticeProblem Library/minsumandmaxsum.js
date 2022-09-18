@@ -15,5 +15,12 @@ let minSumAndMaxSum = (arr,n)=>{
     }
     return `max sum of (n-1) values will be ${sum-min} and min values will be ${sum-max}`;
 }
-const arr=[5,1,2,9];
+//const arr=[5,1,2,9];
+const arr = [2,4,5,6,7,8];
 console.log(minSumAndMaxSum(arr,arr.length));
+
+
+
+
+
+

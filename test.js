@@ -145,11 +145,71 @@
 // console.log(!str1);
 // console.log(!num4)
 
-let num1 = 20;
-let num2 = "10";
-let num3 = 'avengers'
-console.log(num1+num2);
-console.log(num2+num3);
+// let num1 = 20;
+// let num2 = "10";
+// let num3 = 'avengers'
+// console.log(num1+num2);
+// console.log(num2+num3);
+
+
+function print(n){
+    if(n==0) return;
+    console.log(n%2);
+    console.log(n/2)
+}
+print(2);
+print(1)
+
+
+function func(a,b){
+    if(b==0) return 0;
+    if(b==1) return a;
+    return a+func(a,b-1);
+}
+console.log(func(3,8));
+console.log(func(2,4));
+console.log(func(8,9));
+
+
+
+function f(n){
+    let ans=0;//c1
+    for(let i=0;i<=n;i++){//n
+        for(let j=0;j<=log(i);j++){//logn
+            ans+=1;//c2
+            console.log(ans);//c3
+        }
+    }
+
+}
+
+//c1+n+logn+c2+c3
+//nlogn
+
+
+
+function something(number){
+    if(number<=0){
+        return 1;
+    } else{
+        return number*something(number-1);//4*3*2*1
+    }
+}
+console.log(something(4));
+
+
+
+
+function my_recursive_function(n){
+    if(n==0){
+        return;
+    }
+    my_recursive_function(n-1);
+    console.log(n);
+}
+my_recursive_function(10);
+
+
 
 
 

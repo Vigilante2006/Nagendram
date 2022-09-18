@@ -1,7 +1,7 @@
 
 const largenum = (x,y,z)=>{
     let maxvalue;
-if(x>y){
+if(x>y && x>z){
     maxvalue=x;
     //console.log(`${x} is greater than the value of ${y}`)
 }else{
@@ -14,3 +14,4 @@ const x=22,y=9,z=5;
 let maxvalue = largenum(x,y,z);
 console.log(`${maxvalue} is gteater than the value of ${x} and ${y} and ${z}`)
 
+x>y ? console.log(`${x} is greater than the value of ${y}`) : console.log(`${y} is greater than the value of ${x}`);
