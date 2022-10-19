@@ -1,0 +1,16 @@
+
+
+oops:-object oriented programming.
+classes.-
+objects.
+methods.
+constructor.
+inheritance.
+polimorphism.
+encapsulation. 
+
+abstraction.
+
+
+
+

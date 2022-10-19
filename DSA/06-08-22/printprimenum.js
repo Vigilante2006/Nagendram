@@ -30,3 +30,9 @@ function findPrintNumbers(n){
      }
 }
 findPrintNumbers(100);
+
+
+
+
+
+

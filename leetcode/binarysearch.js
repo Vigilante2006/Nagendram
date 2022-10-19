@@ -6,16 +6,16 @@ var searchIndex = (nums,target)=>{
     while(left<=right){
         let mid = left+Math.floor((right-left)/2)
         if(nums[mid]==target){
-            return mid;
-        }else if(mid<target){
-            left = mid+1;
+            return mid;                            // t
+        }else if(nums[mid]<target){               //1,2,3,4,5,6,7
+            left = mid+1;                       //  m
         }else{
             right = mid-1;
         }
     }
-    return -1;
+    return ;
 }
-let target =9;
+let target =2;
 let nums = [-1,0,3,5,9,12];
 //let targ = 8;
 //let num = [-2,-1,0,3,6,8,10,18,23];
@@ -31,24 +31,25 @@ console.log(searchIndex(nums,target));
 
 
 
-let binary =(nums,target)=>{
+var search = function(nums, target) {
+    let left =0,
+        right = nums.length-1;
+     let count =0;
+     while(left<right){
+         let mid = parseInt((left+right)/2)
+         if(nums[mid]==target){
+             return mid;
+         }else if(nums[mid]<target){
+             left = mid;
+         }else{
+             right = mid;
+         }
+         if(right-left==1){
+             count++;
+             if(count>1){break;}
+         }
+     }
+     return -1;
+ };
 
-    let left = 0,
-    right = nums.length-1;
-    while(left<=right){
-        let mid = left+Math.floor((right+left)/2);
-        let potmid = nums[mid];
-        if(potmid==target){
-            return potmid;
-        }
-        if(potmid>target){
-            right = potmid-1
-        }else{
-            left = potmid+1;
-        }
-    }
-    return -1
-}
-let target1 = 9;
-let num1 = [-1,0,3,5,9,12];
-console.log(binary(num1,target1));
+

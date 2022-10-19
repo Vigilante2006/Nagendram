@@ -79,7 +79,7 @@ mean(num2);
 console.log("mean useing second approach: "+mean1(...num1));
 console.log("mean useing second approach: "+mean1(...num2));
 
-let median = (nums)=>{
+let median = (nums)=>{//center value
     let n=nums.length;
     let median = 0;
     nums.sort((a,b)=>a-b);

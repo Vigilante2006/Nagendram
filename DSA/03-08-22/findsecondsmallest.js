@@ -12,7 +12,7 @@ function findSecondSmallest(array){
     for(let j=0;j<array.length;j++){
         if(array[j]>smallest && secondsmallest>array[j]){
             secondsmallest=array[j];
-       
+       S
         
     }
 }

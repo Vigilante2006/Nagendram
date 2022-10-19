@@ -1,6 +1,6 @@
 
 var M;
-const readline = require("readline");
+const readline = requiresre("readline");
  
 const rlInterface = readline.createInterface({input:process.stdin,output:process.stdout});
 rlInterface.question("Enter the value of  M and N",(answer) =>{ M=answer;rlInterface.close();});

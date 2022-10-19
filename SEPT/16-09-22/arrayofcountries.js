@@ -21,3 +21,29 @@ function countriesInLexicalOrder(arr){
 }
 let arr = ["India","Australia","Chaina","Russia","Brajil","Japan"];
 console.log(countriesInLexicalOrder(arr));
+
+
+
+function selection(arr){
+    let n=arr.length;
+    let minind;
+    for(let i=0;i<n-1;i++){
+        minind = i;
+        for(j=i+1;j<n-1-i;j++){
+            if(arr[j].localeCompare(arr[minind])==-1){
+                minind = j;
+            }
+            
+        }
+        if(minind!=i){
+            let swap= arr[minind];
+            arr[minind] = arr[i];
+            arr[i] = swap;
+
+        }
+    }
+    return arr;
+}
+
+let arrr = ["India","Australia","Chaina","Afghan","pakistan"];
+console.log(selection(arrr))

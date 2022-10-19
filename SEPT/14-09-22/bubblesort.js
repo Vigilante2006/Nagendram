@@ -31,6 +31,21 @@ console.log(arr[arr.length-4])
 
 function bubb(arr,k){
     for(let i=0;i<k;i++){
-        
+        var isSwapped = false
+        for(j=0;j<arr.length-1-i;j++){
+            if(arr[j]>arr[j+1]){
+                let temp = arr[j];
+                arr[j] = arr[j+1]
+                arr[j+1] =temp
+                 isSwapped = true
+            }
+        }
+        if(!isSwapped) break;
     }
+    return arr;
 }
+//var k = 4
+let arrr=[9,6,10,8,5,45,32,21]
+console.log(bubb(arrr,8));
+console.log(arrr.length-1);
+//console.log(arr[arrr.length-4])

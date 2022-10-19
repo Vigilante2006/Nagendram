@@ -8,3 +8,14 @@
 //   }
 
 
+let arr = [1,2,3,4,5];
+let n=arr.length;
+for(let i=0;i<n;i++){
+    arr[i]=arr[i]+arr[i+1];
+}
+console.log(arr);
+
+
+var a=5
+var b=0==2 && a++
+console.log(a,b);

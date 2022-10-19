@@ -1,0 +1,86 @@
+
+<!-- Every html file starts with html and end with html tags -->
+<html>
+
+<!-- to provide information about application includes external resources(js,css). -->
+    <head>
+        <title>
+
+        </title>
+    </head>
+
+    <!-- Includes your visible part of web page. -->
+    <body>
+        <!-- h1[Largest], h2, h3, h4, h5, h6[Smallest]-->
+        <h1>Please Sign up!!</h1>
+        <h4>It's quick and easy</h4>
+
+        <!-- create form and controls inside form. -->
+        <!-- A container contains from controls. -->
+        <form>
+
+            <!-- self closeing tags -->
+            <!-- Attribute =>[name = "value"] -->
+            <label for = "fname">Enter First Name</label>
+            <input type="text" name="fname" placeholder="Enter Your First Name"/>
+            <br><br>
+            <label for = "fname">Enter Last Name</label>
+            <input type="text" name="fname" placeholder="Enter Your Last Name"/>
+            <br />
+            <br />
+            <label for="email">Enter email</label>
+            <input type="email" name = "enter" placeholder="Enter Your email">
+            <br><br>
+            <label for="password">Enter Password</label>
+            <input type="password" name="Password" placeholder="Enter Your Password">
+            <br>
+            <br/>
+            <label for="dob">Enter Date of Birth</label>
+            <input type="date" name="dob">
+            <br />
+            <br/>
+            <label for="mobile">Enter Mobile Number</label>
+            <input type="text">
+            <input type="number" name="mobile" >
+            <br />
+            <br />
+            <label for="gender">please select gender::</label>
+            <input type="radio" name="gender">
+            <label for="gender">male</label>
+            <input type="radio" name="gender">
+            <label for="gender">female</label>
+            <input type="radio" name="gender">
+            <label for="gender">others</label>
+            <br><br>
+            <!-- textarea:multiline text -->
+            <label for="address"></label>
+            <textarea name="address" placeholder="your address" id="" cols="30" rows="4"></textarea>
+            <br><br>
+            <label for="pincode">pincode</label>
+            <input type="text" name="pincode">
+            <br>
+            <br>
+            <label for="city">Select City</label>
+            <select name="city">
+                <option value="-1">Select city</option>
+                <option value="0">Vizag</option>
+                <option value="1">mumbai</option>
+                <option value="2">banglore</option>
+                <option value="3">pune</option>
+                <option value="4">hyderabad</option>
+            </select>
+            <br>
+            <input type="checkbox" name="terms and conditions">
+            <label for="terms and conditons">Terms & conditions</label>
+            <br>
+
+            <!-- Buttons -->
+            <br />
+            <!-- <input type="submit" name="sign up"> -->
+            <!-- <input type="button" name="save" value="sign up"> -->
+            <button type="reset">clear</button>
+
+        </form>
+    </body>
+</html>
+

@@ -5,7 +5,7 @@ function elementsPairSum(arr,i=0,t,newA=[]){
         return newA;
     }
     if(arr[i]+arr[i+1]==t){
-        newA.push(aar[i]+arr[i+1]);
+        newA.push(arr[i]+arr[i+1]);
     }
     return elementsPairSum(arr,t,i+1,newA);
 }

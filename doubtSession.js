@@ -1,3 +1,14 @@
+
+// 1. read the question 
+// 2. see sample input and output
+// 3. try to find an easy approach in mind 
+// 4. implement it using code (basic js)
+// 5. try sample input and check if the code is giving correct output or encodeURIComponent
+// 6. assume different test cases in your mind 
+// 7. submit it 
+// 8. fix code absed on the error (debugging, optimizing)
+// 9. go to step 7
+
 //phone class
 //properties 
 //1.color
@@ -245,19 +256,19 @@
   
 
 
-const onedarray1 = [2,4,6,7,9,53,6,4,33,9,5,2,98,7]
+// const onedarray1 = [2,4,6,7,9,53,6,4,33,9,5,2,98,7]
 
-const twodarray1 = [];
+// const twodarray1 = [];
 
-for(let i=0 ; i<onedarray1.length/5 ; i++){
-    const array = [];
-    const jindex = i*5
-    for(var j=jindex;j<jindex+5;j++){
-        array.push(onedarray1[j]);
-    }
-    twodarray1.push(array);
-}
-console.log(twodarray1);
+// for(let i=0 ; i<onedarray1.length/5 ; i++){
+//     const array = [];
+//     const jindex = i*5
+//     for(var j=jindex;j<jindex+5;j++){
+//         array.push(onedarray1[j]);
+//     }
+//     twodarray1.push(array);
+// }
+// console.log(twodarray1);
 
 
 
@@ -312,3 +323,43 @@ console.log(twodarray1);
 // interchange(matrix);
 
 //matrix(matrix);
+
+
+let a = [];
+for (let i = 0; i < 5; i++) {
+  a++;
+}
+console.log(a);
+
+
+// 1. find how many odd number are there: 
+//   1.1 if there are even number of odd numbers:
+//       res => sum(array)
+//   1.2 if there are odd number of odd numbers
+//       remove smallest odd number: 
+//       res => sum(array)
+// 2. minNegativeOddNumber = min([-2, -8, -4, -7])
+//       res = minNegativeOddNumber + res from condition 1
+
+
+
+
+function subsequenceMaxVal(arr,n){
+  n=arr.length;
+  var result = 0;
+  for(let i=0;i<n-1;i++){
+    if(i%2!==0){
+      result+=arr[i];
+    }
+    else{
+      result+=arr[i];
+    }
+  }
+  console.log(result);
+}
+subsequenceMaxVal([7,3,2,8,1]);
+subsequenceMaxVal([3,1,2,4,5]);
+subsequenceMaxVal([1,2,-3,-4,0,5,6])
+subsequenceMaxVal([-2,-8,-4,-7])
+subsequenceMaxVal([3,2,5,4,1])
+

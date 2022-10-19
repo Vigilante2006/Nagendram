@@ -30,3 +30,21 @@ console.log(c);
 
 
 
+function arrofcount(arr,k){
+    for(let i=0;i<k;i++){
+        let isSwaped = false
+        for(let j=0;j<arr.length-i-1;j++){
+            if(arr[j].localeCompare(arr[j+1]) !=-1){
+                let swap = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = swap;
+                isSwaped = true;
+            }
+        }
+        if(!isSwaped) break;
+    }
+}
+let arr = ["Ravi","rithwik","Slice","Nag","Aradhya"];
+arrofcount(arr,5)
+console.log(arr);
+

@@ -28,7 +28,6 @@ function merge(a,b){
 console.log(mersgeSort([1,3,2,5,7,6,0,9]));
 
 
-
 function mersgeSort1(a){
     if(a.length<2) return a;
 

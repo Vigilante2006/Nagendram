@@ -8,12 +8,14 @@ function rearrangeing(arr,size){
     while(mid<=end){
         if(arr[mid]==0){
             mid++;
-        }else{
+        }
+       else{
             swap = arr[end];
             arr[end] = arr[mid];
             arr[mid] = swap;
             end--;
         }
+        
     }
     return arr;
 }
@@ -43,3 +45,29 @@ console.log(rearrangeing(arr,size));
 // }
 
 // printAssendingOrder([0,1,1,0,0,1,0,1]);
+
+
+let movezeros = (arr)=>{
+    let n = arr.length;
+    if(n == 0 || n == 1){
+        return
+    }
+    let left = 0;
+    let right = 0;
+    let swap
+    while(right<n){
+        if(arr[right]!==0){
+            ++right;
+        }
+        else{
+            swap = arr[right];
+            arr[right] = arr[left];
+            arr[left] = swap;
+            ++right
+            ++left
+        }
+    }
+    return arr;
+}
+const arrr= [0,1,1,0,3,0,5,0]
+console.log(movezeros(arrr));

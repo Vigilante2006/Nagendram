@@ -1,0 +1,30 @@
+1.what will result form a NATURAL JOIN between the two tables named
+Employees and Departments(haveing a standard column as department_id)
+when executed in Oracle Database as given the below query? 
+A$SELECT*FROM employees NATURAL JOIN department;.A$
+
+ans:the result set will have only one column for each pair of 
+identically named columns from both tables.
+
+2.let fun = function (a,b,c){
+    console(a,b,c)//error
+    console.log(a,b,c)
+    //a,b,c
+    //a1,b1,c1
+}
+var fun1 = fun.bind(this,"a")
+var fun2 = fun.bind(this,"a1","b1")
+fun1("b","c")
+fun2("c1")
+
+3.
+const value = {number:10};
+const multiply = (x={...value})=>{
+    console.log((x.number*=2))
+}
+multiply();
+multiply();
+multiply(value);
+multiply(value);
+ans:20 20 20 40
+

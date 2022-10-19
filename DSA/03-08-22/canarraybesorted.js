@@ -35,14 +35,14 @@ function canArrayBeSorted(array){
         decreasingArray[j]=array[i];
         j++;
     }
-    //console.log("Decreasing Array: ", Decreasingarray)
+    console.log("Decreasing Array: ", decreasingArray)
    
    //step 2:Reversing subarray and put values into main array.
     //[5,4,3]
     for(let i=decreasingArray.length-1; i>=0;i--){
         array[startIndex]=decreasingArray[i];
         startIndex++;
-    }
+    } 
     console.log("Main Array after reverse: ",array);
 
     //step 3:check if sorted or not.
@@ -60,3 +60,7 @@ function canArrayBeSorted(array){
 canArrayBeSorted([1,2,5,4,3,7])//true
 //canArrayBeSorted([1,2,5,4,3,7,8,9,12,11,10,13,14,17,16,15]);
 //canArrayBeSorted([1,2,4,5,3])//false
+
+
+
+
